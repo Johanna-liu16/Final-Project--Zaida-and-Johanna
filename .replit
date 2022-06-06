@@ -1,2 +1,2 @@
-language = "bash"
-run = "HTML, CSS, JS"
+language = "html"
+run = "html, js, css"
