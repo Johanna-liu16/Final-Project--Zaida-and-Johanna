@@ -7,10 +7,4 @@
 /**
  * Check servie worker.
  */
-if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ICS2O-Unit-6-03-JS/sw.js", {
-    scope: "/ICS2O-Unit-6-03-JS/",
-  })
-}
-
-;("use strict")
+console.log("Hello, World!")
