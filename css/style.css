@@ -1,0 +1,22 @@
+/* Created by: Zaida Hammel
+* Created on: May 2022
+* This file contains the CSS for index.html
+*/
+
+p {
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  padding-top: 5pt;
+}
+
+/* Uses a transparent header that draws on top of the layout's background */
+.demo-layout-transparent {
+  background: url('../assets/openbook.png') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+      your background is light. */
+  color: white;
+}
