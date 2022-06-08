@@ -22,13 +22,26 @@ p {
   color: white;
 }
 
-.demo-card-wide mdl-card mdl-shadow--2dp {
+.demo-card-wide.mdl-card {
+  width: 512px;
+  height: 112px;
+  background-color:rgba(0,0,0,0.1);
+  /* Center vertically and horizontally */
   position: relative;
-}
-
-.mdl-card__title {
-  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+}
+.demo-card-wide > .mdl-card__menu {
+  top: 50%;
+  left: 50%;
+}
+
+body {
+  background: #fafafa;
+  position: relative;
 }
