@@ -25,7 +25,8 @@ p {
 .demo-card-wide.mdl-card {
   width: 490px;
   height: 50px;
-  background-color:rgba(0,0,0,0.1);
+  background-color: rgba(0, 0, 0, 10%);
+  
   /* Center vertically and horizontally */
   position: absolute;
   top: 50%;
@@ -35,12 +36,14 @@ p {
   justify-content: center;
   align-items: center;
 }
+
 .demo-card-wide > .mdl-card__title {
   color: #fff;
   height: 176px;
 }
 
 .mdl-card__supporting-text {
+  
   /* Center horizontally*/
   margin: 0 auto;
 }
