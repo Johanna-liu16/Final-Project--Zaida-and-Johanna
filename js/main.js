@@ -7,4 +7,4 @@
 /**
  * Check servie worker.
  */
- console.log("Hello, World!")
+console.log("Hello, World!")
