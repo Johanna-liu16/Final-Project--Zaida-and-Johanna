@@ -9,11 +9,16 @@
     <meta name="author" content="Zaida Hammel, Johanna Liu" />
     <meta name="theme-color" content="#FFFFFF" />
     <title>MLA Citation Machine</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></noscript>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-purple.min.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-purple.min.css"></noscript>
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
   </head>
   <body>
+      <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+      <script src="./js/script.js"></script>
+      <h3>Site Websites in MLA!</h3>
       <!-- Author's lastname -->
       <form action="#">
           <p>Enter author's lastname:</p>
@@ -35,9 +40,74 @@
           <p>Enter title:</p>
           <div class="mdl-textfield mdl-js-textfield">
               <input class="mdl-textfield__input" type="text" id="title">
-              <label class="mdl-textfield__label" for="title">Text...</label>
+              <label class="mdl-textfield__label" for="title">Enter title...</label>
           </div>
       </form>
+      <!-- Pull down menu -->
+      <label for="day">Select day:</label>
+      <select name="day" id="day">
+          <option value="d1">1</option>
+          <option value="d2">2</option>
+          <option value="d3">3</option>
+          <option value="d4">4</option>
+          <option value="d5">5</option>
+          <option value="d6">6</option>
+          <option value="d7">7</option>
+          <option value="d8">8</option>
+          <option value="d9">9</option>
+          <option value="d10">10</option>
+          <option value="d11">11</option>
+          <option value="d12">12</option>
+          <option value="d13">13</option>
+          <option value="d14">14</option>
+          <option value="d15">15</option>
+          <option value="d16">16</option>
+          <option value="d17">17</option>
+          <option value="d18">18</option>
+          <option value="d19">19</option>
+          <option value="d20">20</option>
+          <option value="d21">21</option>
+          <option value="d22">22</option>
+          <option value="d23">23</option>
+          <option value="d24">24</option>
+          <option value="d25">25</option>
+          <option value="d26">26</option>
+          <option value="d27">27</option>
+          <option value="d28">28</option>
+          <option value="d29">29</option>
+          <option value="d30">30</option>
+          <option value="d31">31</option>
+      </select>
+      <br><br>
+      <!-- Pull down menu -->
+      <label for="month">Select month:</label>
+      <select name="month" id="month" align="center">
+          <option value="january">January</option>
+          <option value="february">February</option>
+          <option value="march">March</option>
+          <option value="april">April</option>
+          <option value="may">May</option>
+          <option value="june">June</option>
+          <option value="July">July</option>
+          <option value="august">August</option>
+          <option value="september">September</option>
+          <option value="october">October</option>
+          <option value="november">November</option>
+          <option value="december">December</option>
+      </select>
+      <br><br>
+        <!-- Pull down menu -->
+          <label for="year">Select year:</label>
+          <select name="year" id="year">
+            <option value="monday">Monday</option>
+            <option value="tuesday">Tuesday</option>
+            <option value="wednesday">Wednsday</option>
+            <option value="thursday">Thursday</option>
+            <option value="friday">Friday</option>
+            <option value="saturday">Saturday</option>
+            <option value="sunday">Sunday</option>
+          </select>
+          <br><br>
       <!-- Simple Textfield -->
       <form action="#">
           <div class="mdl-textfield mdl-js-textfield">
