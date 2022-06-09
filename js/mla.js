@@ -18,5 +18,20 @@ function myButtonClicked() {
   var url = document.getElementById("mlaUrl").value
 
   // process
-      document.getElementById("result").innerHTML= lastname + ", " + firstname + "." + '"' + title + '"' + ". " + pub + ", " + day + " " + month + " " + year + ", " + url
+      document.getElementById("result").innerHTML= lastname +
+          ", " + 
+          firstname + 
+          "." +
+          '"' +
+          title +
+          '"' +
+          ". " +
+          pub +
+          ", " +
+          day +
+          " " + month +
+          " " +
+          year +
+          ", " +
+          url
 }
