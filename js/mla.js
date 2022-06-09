@@ -29,7 +29,8 @@ function myButtonClicked() {
     pub +
     ", " +
     day +
-    " " + month +
+    " " + 
+    month +
     " " +
     year +
     ", " +
