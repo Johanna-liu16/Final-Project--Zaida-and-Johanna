@@ -24,8 +24,8 @@ p {
 
 .demo-card-wide.mdl-card {
   width: 490px;
-  height: 50px;
-  background-color: rgb(0 0 0 / 0%);
+  height: 212px;
+  background-color: rgb(120 93 85 / 25%);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -47,4 +47,9 @@ p {
 body {
   background: #fafafa;
   position: relative;
+}
+
+.mdl-card__supporting-text {
+  margin-bottom:35pt;
+  margin-top: -25pt;
 }
