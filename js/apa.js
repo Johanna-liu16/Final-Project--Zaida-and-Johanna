@@ -23,7 +23,7 @@ function myButtonClickedAPA() {
     ", " +
     initial +
     ". " +
-    '(' +
+    "(" +
     year +
     ", " +
     month +
