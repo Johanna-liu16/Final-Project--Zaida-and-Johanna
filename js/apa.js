@@ -9,7 +9,7 @@
  */
 function myButtonClickedAPA() {
   var lastname = document.getElementById("apaLastname").value
-  var initial = document.getElementById("apaInitial").value
+  var initial = document.getElementById("apaInitials").value
   var title = document.getElementById("apaTitle").value
   var pub = document.getElementById("apaPublisher").value
   var day = document.getElementById("apaDay").value
