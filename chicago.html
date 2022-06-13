@@ -1,4 +1,4 @@
-              <!DOCTYPE html>
+<!DOCTYPE html>
 <!-- ICS2O-Final-Project---Zaida-and-Johanna -->
 <html lang="en-ca">
   <head>
@@ -16,7 +16,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
   </head>
   <body>
-      <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
       <script src="./js/mla.js"></script>
       <h3>Site Websites in MLA!</h3>
       <!-- Author's lastname -->
@@ -27,69 +27,45 @@
               <label class="mdl-textfield__label" for="mlaLastname">Enter author's lastname...</label>
           </div>
       </form>
-      <!-- Author's firstname -->
-      <form action="#">
-          <p>Enter author's firstname:</p>
-          <div class="mdl-textfield mdl-js-textfield">
-              <input class="mdl-textfield__input" type="text" id="mlaFirstname">
-              <label class="mdl-textfield__label" for="mlaFirstname">Enter author's firstname...</label>
-          </div>
-      </form>
-      <!-- Title -->
-      <form action="#">
-          <p>Enter title:</p>
-          <div class="mdl-textfield mdl-js-textfield">
-              <input class="mdl-textfield__input" type="text" id="mlaTitle">
-              <label class="mdl-textfield__label" for="mlaTitle">Enter title...</label>
-          </div>
-      </form>
-      <!-- Publisher -->
-      <p>Enter name of publisher:</p>
-      <form action="#">
-          <div class="mdl-textfield mdl-js-textfield">
-              <input class="mdl-textfield__input" type="text" id="mlaPublisher">
-              <label class="mdl-textfield__label" for="mlaPublisher">Enter name of publisher...</label>
-          </div>
-      </form>
-      <!-- Day -->
-      <label for="mlaDay">Select day:</label>
-      <select name="mlaDay" id="mlaDay">
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10</option>
-          <option value="11">11</option>
-          <option value="12">12</option>
-          <option value="13">13</option>
-          <option value="14">14</option>
-          <option value="15">15</option>
-          <option value="16">16</option>
-          <option value="17">17</option>
-          <option value="18">18</option>
-          <option value="19">19</option>
-          <option value="20">20</option>
-          <option value="21">21</option>
-          <option value="22">22</option>
-          <option value="23">23</option>
-          <option value="24">24</option>
-          <option value="25">25</option>
-          <option value="26">26</option>
-          <option value="27">27</option>
-          <option value="28">28</option>
-          <option value="29">29</option>
-          <option value="30">30</option>
-          <option value="31">31</option>
+    <!-- Pull down menu -->
+      <label for="day">Select day:</label>
+      <select name="day" id="day">
+          <option value="d1">1</option>
+          <option value="d2">2</option>
+          <option value="d3">3</option>
+          <option value="d4">4</option>
+          <option value="d5">5</option>
+          <option value="d6">6</option>
+          <option value="d7">7</option>
+          <option value="d8">8</option>
+          <option value="d9">9</option>
+          <option value="d10">10</option>
+          <option value="d11">11</option>
+          <option value="d12">12</option>
+          <option value="d13">13</option>
+          <option value="d14">14</option>
+          <option value="d15">15</option>
+          <option value="d16">16</option>
+          <option value="d17">17</option>
+          <option value="d18">18</option>
+          <option value="d19">19</option>
+          <option value="d20">20</option>
+          <option value="d21">21</option>
+          <option value="d22">22</option>
+          <option value="d23">23</option>
+          <option value="d24">24</option>
+          <option value="d25">25</option>
+          <option value="d26">26</option>
+          <option value="d27">27</option>
+          <option value="d28">28</option>
+          <option value="d29">29</option>
+          <option value="d30">30</option>
+          <option value="d31">31</option>
       </select>
       <br><br>
-      <!-- Month -->
-      <label for="mlaMonth">Select month:</label>
-      <select name="mlaMonth" id="mlaMonth" align="center">
+      <!-- Pull down menu -->
+      <label for="month">Select month:</label>
+      <select name="month" id="month" align="center">
           <option value="january">January</option>
           <option value="february">February</option>
           <option value="march">March</option>
@@ -104,9 +80,9 @@
           <option value="december">December</option>
       </select>
       <br><br>
-        <!-- Year -->
-          <label for="mlaYear">Select year:</label>
-          <select name="mlaYear" id="mlaYear">
+        <!-- Pull down menu -->
+          <label for="year">Select year:</label>
+          <select name="year" id="year">
             <option value="1991">1991</option>
             <option value="1992">1992</option>
             <option value="1993">1993</option>
@@ -148,20 +124,27 @@
             <option value="2030">2030</option>
           </select>
           <br><br>
-      <!-- URL -->
-      <p>Enter URL:</p>
+      <!-- Author's first name -->
       <form action="#">
+          <p>Enter author's first name:</p>
           <div class="mdl-textfield mdl-js-textfield">
-              <input class="mdl-textfield__input" type="text" id="mlaUrl">
-              <label class="mdl-textfield__label" for="mlaUrl">Enter url...</label>
+              <input class="mdl-textfield__input" type="text" id="lastname">
           </div>
       </form>
-      <!-- Raised button with ripple -->
-      <button
-          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="myButtonClicked()">
-          Cite!
-      </button>
-      <div id="result"></div>
+      <!-- Author's last name -->
+      <form action="#">
+          <p>Enter author's last name:</p>
+          <div class="mdl-textfield mdl-js-textfield">
+              <input class="mdl-textfield__input" type="text" id="firstname">
+          </div>
+      </form>
+      <!-- Title -->
+      <form action="#">
+          <p>Enter title:</p>
+          <div class="mdl-textfield mdl-js-textfield">
+              <input class="mdl-textfield__input" type="text" id="title">
+              <label class="mdl-textfield__label" for="title">Text...</label>
+          </div>
+      </form>
   </body>
 </html>
