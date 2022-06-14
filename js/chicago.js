@@ -2,7 +2,7 @@
 //
 // Created by: Johanna Liu, Zaida Hammel
 // Created on: June 2022
-// This file contains the JS functions for mla.html
+// This file contains the JS functions for chicago.html
 
 /**
  * This function does the citation.
@@ -13,31 +13,29 @@ function myButtonClicked() {
   var title = document.getElementById("chiTitle").value
   var web = document.getElementById("web").value
   var pub = document.getElementById("chiPub").value
-  var pubDay = document.getElementById("pubDay").value
-  var pubMonth = document.getElementById("pubMonth").value
-  var pubYear = document.getElementById("pubYear").value
-  var day = document.getElementById("chiDay").value
-  var month = document.getElementById("chiMonth").value
-  var year = document.getElementById("chiYear").value
+  var day = document.getElementById("pubDay").value
+  var month = document.getElementById("pubMonth").value
+  var year = document.getElementById("pubYear").value
   var url = document.getElementById("chiUrl").value
 
   // process
-  document.getElementById("result").innerHTML =
+  document.getElementById("results").innerHTML =
     lastname +
     ", " +
     firstname +
     "." +
     '"' +
     title +
-    '"' +
+    '." ' +
+    web +
     ". " +
     pub +
     ", " +
-    day +
-    " " +
     month +
     " " +
-    year +
+    day +
     ", " +
+    year +
+    ". " +
     url
 }
