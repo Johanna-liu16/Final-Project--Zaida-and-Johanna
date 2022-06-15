@@ -62,13 +62,13 @@ function handleOperator(nextOperator) {
 }
 
 function calculate(firstOperand, secondOperand, operator) {
-  if (operator === '+') {
+  if (operator === "+") {
     return firstOperand + secondOperand
-  } else if (operator === '-') {
+  } else if (operator === "-") {
     return firstOperand - secondOperand
-  } else if (operator === '*') {
+  } else if (operator === "*") {
     return firstOperand * secondOperand
-  } else if (operator === '/') {
+  } else if (operator === "/") {
     return firstOperand / secondOperand
   }
 
@@ -76,39 +76,39 @@ function calculate(firstOperand, secondOperand, operator) {
 }
 
 function resetCalculator() {
-  calculator.displayValue = '0'
+  calculator.displayValue = "0"
   calculator.firstOperand = null
   calculator.waitingForSecondOperand = false
   calculator.operator = null
 }
 
 function updateDisplay() {
-  const display = document.querySelector('.calculator-screen')
+  const display = document.querySelector(".calculator-screen")
   display.value = calculator.displayValue
 }
 
 updateDisplay();
 
-const keys = document.querySelector('.calculator-keys')
-keys.addEventListener('click', event => {
+const keys = document.querySelector(".calculator-keys")
+keys.addEventListener("click", event => {
   const { target } = event
-  if (!target.matches('button')) {
+  if (!target.matches("button")) {
     return
   }
 
-  if (target.classList.contains('operator')) {
+  if (target.classList.contains("operator")) {
     handleOperator(target.value)
     updateDisplay()
     return
   }
 
-  if (target.classList.contains('decimal')) {
+  if (target.classList.contains("decimal")) {
     inputDecimal(target.value)
     updateDisplay()
     return
   }
 
-  if (target.classList.contains('all-clear')) {
+  if (target.classList.contains("all-clear")) {
     resetCalculator()
     updateDisplay()
     return
