@@ -19,17 +19,55 @@
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
       <script src="./js/chicago.js"></script>
       <h3>Site Websites in Chicago!</h3>
-      <!-- Author's lastname -->
+      <!-- Author's first name -->
       <form action="#">
-          <p>Enter author's lastname:</p>
+          <p>Enter author's first name:</p>
           <div class="mdl-textfield mdl-js-textfield">
-              <input class="mdl-textfield__input" type="text" id="Lastname">
-              <label class="mdl-textfield__label" for="mlaLastname">Enter author's lastname...</label>
+              <input class="mdl-textfield__input" type="text" id="chiFirstname">
           </div>
       </form>
-    <!-- Pull down menu -->
-      <label for="pubDay">Select published day:</label>
-      <select name="pubDay" id="pubDay">
+      <!-- Author's last name -->
+      <form action="#">
+          <p>Enter author's last name:</p>
+          <div class="mdl-textfield mdl-js-textfield">
+              <input class="mdl-textfield__input" type="text" id="chiLastname">
+          </div>
+      </form>
+      <!-- Title -->
+      <form action="#">
+        <p>Enter title:</p>
+          <div class="mdl-textfield mdl-js-textfield">
+              <input class="mdl-textfield__input" type="text" id="chiTitle">
+              <label class="mdl-textfield__label" for="chiTitle">Text...</label>
+          </div>
+      </form>
+      <!-- Website -->
+      <form action="#">
+          <p>Enter website name:</p>
+          <div class="mdl-textfield mdl-js-textfield">
+              <input class="mdl-textfield__input" type="text" id="web">
+              <label class="mdl-textfield__label" for="web">Enter website...</label>
+          </div>
+      </form>
+      <!-- Publisher -->
+      <form action="#">
+          <p>Enter publisher:</p>
+          <div class="mdl-textfield mdl-js-textfield">
+              <input class="mdl-textfield__input" type="text" id="chiPub">
+              <label class="mdl-textfield__label" for="chiPub">Enter publisher...</label>
+          </div>
+      </form>
+      <!-- URL -->
+      <p>Enter URL:</p>
+      <form action="#">
+          <div class="mdl-textfield mdl-js-textfield">
+              <input class="mdl-textfield__input" type="text" id="chiUrl">
+              <label class="mdl-textfield__label" for="chiUrl">Enter url...</label>
+          </div>
+      </form>
+         <!-- Pull down menu -->
+      <label for="chiDay">Select published day:</label>
+      <select name="chiDay" id="chiDay">
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
@@ -124,52 +162,6 @@
             <option value="2030">2030</option>
           </select>
           <br><br>
-      <!-- Author's first name -->
-      <form action="#">
-          <p>Enter author's first name:</p>
-          <div class="mdl-textfield mdl-js-textfield">
-              <input class="mdl-textfield__input" type="text" id="chiFirstname">
-          </div>
-      </form>
-      <!-- Author's last name -->
-      <form action="#">
-          <p>Enter author's last name:</p>
-          <div class="mdl-textfield mdl-js-textfield">
-              <input class="mdl-textfield__input" type="text" id="chiLastname">
-          </div>
-      </form>
-      <!-- Title -->
-      <form action="#">
-          <p>Enter title:</p>
-          <div class="mdl-textfield mdl-js-textfield">
-              <input class="mdl-textfield__input" type="text" id="chiTitle">
-              <label class="mdl-textfield__label" for="chiTitle">Text...</label>
-          </div>
-      <!-- Website -->
-      <form action="#">
-          <p>Enter website name:</p>
-          <div class="mdl-textfield mdl-js-textfield">
-              <input class="mdl-textfield__input" type="text" id="web">
-              <label class="mdl-textfield__label" for="web">Enter website...</label>
-          </div>
-      </form>
-      <!-- Publisher -->
-      <form action="#">
-          <p>Enter publisher:</p>
-          <div class="mdl-textfield mdl-js-textfield">
-              <input class="mdl-textfield__input" type="text" id="chiPub">
-              <label class="mdl-textfield__label" for="chiPub">Enter publisher...</label>
-          </div>
-      </form>
-      <!-- URL -->
-      <p>Enter URL:</p>
-      <form action="#">
-          <div class="mdl-textfield mdl-js-textfield">
-              <input class="mdl-textfield__input" type="text" id="chiUrl">
-              <label class="mdl-textfield__label" for="chiUrl">Enter url...</label>
-          </div>
-      </form>
-      </form>
       <!-- Raised button with ripple -->
       <button
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
