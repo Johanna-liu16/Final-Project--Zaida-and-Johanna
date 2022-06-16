@@ -14,6 +14,9 @@ const calculator = {
   operator: null,
 }
 
+/**
+ * This function displays values.
+ */
 function inputDigit(digit) {
   const { displayValue, waitingForSecondOperand } = calculator
 
@@ -26,6 +29,9 @@ function inputDigit(digit) {
   }
 }
 
+/**
+ * This function does the operation.
+ */
 function inputDecimal(dot) {
   if (calculator.waitingForSecondOperand === true) {
     calculator.displayValue = "0."
@@ -38,6 +44,9 @@ function inputDecimal(dot) {
   }
 }
 
+/**
+ * This function does the operation.
+ */
 function handleOperator(nextOperator) {
   const { firstOperand, displayValue, operator } = calculator
   const inputValue = parseFloat(displayValue)
@@ -61,6 +70,9 @@ function handleOperator(nextOperator) {
   calculator.operator = nextOperator
 }
 
+/**
+ * Buttons.
+ */
 function calculate(firstOperand, secondOperand, operator) {
   if (operator === "+") {
     return firstOperand + secondOperand
@@ -75,6 +87,9 @@ function calculate(firstOperand, secondOperand, operator) {
   return secondOperand
 }
 
+/**
+ * This function does the calculation.
+ */
 function resetCalculator() {
   calculator.displayValue = "0"
   calculator.firstOperand = null
@@ -82,6 +97,9 @@ function resetCalculator() {
   calculator.operator = null
 }
 
+/**
+ * This function does the calculation.
+ */
 function updateDisplay() {
   const display = document.querySelector(".calculator-screen")
   display.value = calculator.displayValue
