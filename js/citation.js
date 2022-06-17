@@ -38,6 +38,9 @@ function mlaButtonClicked() {
     urlMla
 }
 
+/**
+ * This function does the chicago citation.
+ */
 function chicagoButtonClicked() {
   var lastNameChi = document.getElementById("chiLastname").value
   var firstNameChi = document.getElementById("chiFirstname").value
@@ -71,6 +74,9 @@ function chicagoButtonClicked() {
     urlChi
 }
 
+/**
+ * This function does the apa citation.
+ */
 function myButtonClickedAPA() {
   var lastname = document.getElementById("apaLastname").value
   var initial = document.getElementById("apaInitials").value
