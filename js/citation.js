@@ -82,7 +82,7 @@ function myButtonClickedAPA() {
   var url = document.getElementById("apaUrl").value
 
   // process
-  document.getElementById("results").innerHTML =
+  document.getElementById("resultsApa").innerHTML =
     lastname +
     ", " +
     initial +

@@ -38,6 +38,15 @@
           <a href="#fixed-tab-3" class="mdl-layout__tab">APA Format</a>
         </div>
       </header>
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Menu</span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="./citation.html">Citation Machine</a>
+          <a class="mdl-navigation__link" href="">Link</a>
+          <a class="mdl-navigation__link" href="">Link</a>
+          <a class="mdl-navigation__link" href="">Link</a>
+        </nav>
+      </div>
       <main class="mdl-layout__content">
         <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
           <div class="page-content">
@@ -350,10 +359,10 @@
             <h3>Site Websites in APA!</h3>
             <!-- Author's lastname -->
             <form action="#">
-              <p>Enter author's lastname:</p>
+              <p>Enter author's last name:</p>
               <div class="mdl-textfield mdl-js-textfield">
                 <input class="mdl-textfield__input" type="text" id="apaLastname">
-                <label class="mdl-textfield__label" for="apaLastname">Enter author's lastname...</label>
+                <label class="mdl-textfield__label" for="apaLastname">Enter author's last name...</label>
               </div>
             </form>
             <!-- Author's initials -->
@@ -491,7 +500,7 @@
               onclick="myButtonClickedAPA()">
               Cite!
             </button>
-            <div id="results"></div>
+            <div id="resultsApa"></div>
           </div>
         </section>
       </main>
