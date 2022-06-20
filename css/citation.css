@@ -1,0 +1,14 @@
+/* Created by: Zaida Hammel, Johanna Liu
+* Created on: June 2022
+* This file contains the CSS for index.html
+*/
+
+.page-content {
+  padding-left: 20pt;
+  padding-bottom: 20pt;
+  padding-right: 770pt;
+}
+
+h3 {
+  background-color: rgb(240 240 240);
+}
