@@ -9,6 +9,10 @@ html {
   background-color: rgb(215 235 245);
 }
 
+h4 {
+  background-color: rgb(112 143 158);
+}
+
 *,
 *::before,
 *::after {
