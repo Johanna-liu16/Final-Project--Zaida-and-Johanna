@@ -8,10 +8,10 @@
 if (navigator.serviceWorker) {
   navigator.serviceWorker.register("/ICS2O-Unit6-03-JS/sw.js", {
     scope: "/ICS2O-Unit6-03-JS/",
-  });
+  })
 }
 
 /**
  * Get API info.
  */
-const getWord = async (URLAddress)
+const getWord = async(URLAddress)
