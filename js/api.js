@@ -14,4 +14,19 @@ if (navigator.serviceWorker) {
 /**
  * Get API info.
  */
-const getWord = async(URLAddress)
+const getWord = async(URLAddress) => {
+  try {
+    const result = await fetch(URLAddress)
+    const jsonData = await result.json()
+    const feeling = jsonData.url
+    var word = document.getElementById("word").value
+    
+    
+    console.log(jsonData[0])
+    document.getElementById("answer").innerHTML = jsonData[0].url; 
+
+  } catch (err) {
+    console.log(err);
+  };
+};
+getImage("https://api.dictionaryapi.dev/api/v2/entries/en/" + word)
