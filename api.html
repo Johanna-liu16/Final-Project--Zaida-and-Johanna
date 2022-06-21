@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-teal.min.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-teal.min.css"></noscript>
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/api.css" />
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -48,6 +48,13 @@
           <span class="mdl-layout-title">Dictionary API</span>
         </div>
       </header>
+      <h4>Write a word you want the definition for:</h4>   
+      <form action="#">
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input" type="text" id="word">
+          <label class="mdl-textfield__label" for="sample1">Word...</label>
+        </div>
+      </form>
       <div class="mdl-layout__drawer">
         <span class="mdl-layout-title">Menu</span>
         <nav class="mdl-navigation">
@@ -57,18 +64,7 @@
           <a class="mdl-navigation__link" href="./api.html">Dictionary API</a>
         </nav>
       </div>
-      <main class="mdl-layout__content">
-        <div class="page-content"><!-- Your content goes here --></div>
-      </main>
     </div>
-    <main class="mdl-layout__content">
-      <!-- Simple Textfield -->
-      <form action="#">
-        <div class="mdl-textfield mdl-js-textfield">
-          <input class="mdl-textfield__input" type="text" id="sample1">
-          <label class="mdl-textfield__label" for="sample1">Text...</label>
-        </div>
-      </form>
-    </main>
+    <div id = "answer"></div>
   </body>
 </html>
