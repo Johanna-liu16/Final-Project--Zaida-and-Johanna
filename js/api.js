@@ -22,7 +22,7 @@ const getWord = async (URLAddress) => {
     var word = document.getElementById("word").value
 
     console.log(jsonData[0])
-    document.getElementById("answer").innerHTML = jsonData[0].url
+    document.getElementById("answer").innerHTML = jsonData[0]
   } catch (err) {
     console.log(err)
   }
