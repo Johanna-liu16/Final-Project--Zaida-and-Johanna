@@ -1,0 +1,43 @@
+<mxfile host="65bd71144e">
+    <diagram id="e28btpf2olkC8tbc9sid" name="Page-1">
+        <mxGraphModel dx="654" dy="1778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="40" width="600" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;font style=&quot;font-size: 17px&quot;&gt;Smart Tools&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="60" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="line;strokeWidth=2;html=1;fontSize=17;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="10" width="20" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="line;strokeWidth=2;html=1;fontSize=17;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="70" width="20" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="line;strokeWidth=2;html=1;fontSize=17;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="-25" width="20" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Citation Machine&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="55" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Calculator" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="60" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Countries API" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="60" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="152.5" width="250" height="135" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Welcome!" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="295" y="152.5" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="This site is a quick and easy way to help &lt;br&gt;you get your school work done fast and &lt;br&gt;efficiently.Whether that be citing your resources, &lt;br&gt;using a calculator or even searching for &lt;br&gt;educational videos on YouTube." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="195" y="190" width="270" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
