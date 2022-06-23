@@ -1,30 +1,32 @@
-// Created by: Zaida Hammel & Johanna Liu
-// Created on: June 2022
-// This file contains the JS functions for api.html
+// Copyright (c) 2022 Johanna Liu All rights reserved
+//
+// Created by: Johanna Liu
+// Created on: Mar 2022
+// This file contains the JS functions for index.html
 
 /**
- * Check service worker.
+ * Check servie worker.
  */
-if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ICS2O-Unit6-03-JS/sw.js", {
-    scope: "/ICS2O-Unit6-03-JS/",
+ if (navigator.serviceWorker) {
+  navigator.serviceWorker.register("/ICS2O-Assignment-6-JS/sw.js", {
+    scope: "/ICS2O-Assignment-6-JS/",
   })
 }
 
+;("use strict")
 /**
  * Get API info.
- */
-const getWord = async (URLAddress) => {
+*/
+const getInfo = async (URLAddress) => {
   try {
     const result = await fetch(URLAddress)
     const jsonData = await result.json()
-    const feeling = jsonData.url
-    var word = document.getElementById("word").value
+    
+    console.log(jsonData[0].flags.svg)
+    document.getElementById("api-image").innerHTML = '<img src="' + jsonData[0].flags.svg + '" alt="Cat image" class="center" width="40%" ' + ">"; 
 
-    console.log(jsonData[0])
-    document.getElementById("answer").innerHTML = jsonData[0]
   } catch (err) {
-    console.log(err)
-  }
-}
-getImage("https://api.dictionaryapi.dev/api/v2/entries/en/" + word)
+    console.log(err);
+  };
+};
+getInfo("https://restcountries.com/v2/capital/paris")
