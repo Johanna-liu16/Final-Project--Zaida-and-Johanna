@@ -40,7 +40,7 @@ function myButtonClicked() {
       document.getElementById("api-image").innerHTML =
         '<img src="' +
         jsonData[0].flags.svg +
-        '" alt="Country Flag" class="center" width="40%" ' +
+        '" alt="Country Flag" class="center" width="10%" ' +
         ">"
 
       console.log(jsonData[0].capital)
@@ -74,24 +74,27 @@ function myButtonClicked() {
       pop = jsonData[0].population
 
       document.getElementById("info").innerHTML =
-        "Capital: " +
+        "<ul><li>Capital: " +
         capital +
-        "  Country: " +
+        "</li><li>  Country: " +
         country +
-        " Native Name: " +
+        "</li><li> Native Name: " +
         nativeName +
-        " Continent: " +
+        "</li><li> Continent: " +
         cont +
-        " Population: " +
+        "</li><li> Subregion: " +
+        region +
+        "</li><li> Population: " +
         pop +
-        "  Language: " +
+        "</li><li>  Language: " +
         lang +
-        " Native language name: " +
+        "</li><li> Native language name: " +
         real +
-        " Currency: " +
+        "</li><li> Currency: " +
         money +
-        " Currency symbol: " +
-        symbol
+        "</li><li> Currency symbol: " +
+        symbol +
+        "</li></ul>"
     } catch (err) {
       console.log(err)
     }
