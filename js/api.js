@@ -16,7 +16,7 @@ if (navigator.serviceWorker) {
 ;("use strict")
 /**
  * Get API info.
-*/
+ */
 function myButtonClicked() {
   const getInfo = async (URLAddress) => {
     try {
@@ -27,7 +27,7 @@ function myButtonClicked() {
       var nativeName = 0
       var cont = 0
       var region = 0
-      var money = 0 
+      var money = 0
       var symbol = 0
       var lang = 0
       var real = 0
@@ -37,8 +37,8 @@ function myButtonClicked() {
       document.getElementById("api-image").innerHTML =
         '<img src="' +
         jsonData[0].flags.svg +
-        '" alt="Cat image" class="center" width="40%" ' + 
-        ">"; 
+        '" alt="Country Flag" class="center" width="40%" ' +
+        ">"
 
       console.log(jsonData[0].capital)
       capital = jsonData[0].capital
@@ -74,20 +74,20 @@ function myButtonClicked() {
         "Capital: " +
         capital +
         "  Country: " + 
-        country + 
-        " Native Name: " + 
-        nativeName + 
-        " Continent: " + 
-        cont + 
-        " Population: " + 
-        pop + 
-        "  Language: " + 
-        lang + 
+        country +
+        " Native Name: " +
+        nativeName +
+        " Continent: " +
+        cont +
+        " Population: " +
+        pop +
+        "  Language: " +
+        lang +
         " Native language name: " +
-        real + 
-        " Currency: " + 
-        money + 
-        " Currency symbol: " + 
+        real +
+        " Currency: " +
+        money +
+        " Currency symbol: " +
         symbol
 
     } catch (err) {
