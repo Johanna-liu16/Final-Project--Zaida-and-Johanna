@@ -39,10 +39,38 @@ function myButtonClicked() {
         jsonData[0].flags.svg +
         '" alt="Country Flag" class="center" width="10%" ' +
         ">"
-      
+
+
       console.log(jsonData[0].capital)
-@@ -74,24 +74,27 @@ function myButtonClicked() {
+      capital = jsonData[0].capital
+
+      console.log(jsonData[0].name)
+      country = jsonData[0].name
+
+      console.log(jsonData[0].nativeName)
+      nativeName = jsonData[0].nativeName
+
+      console.log(jsonData[0].region)
+      cont = jsonData[0].region
+
+      console.log(jsonData[0].subregion)
+      region = jsonData[0].subregion
+
+      console.log(jsonData[0].currencies[0].name)
+      money = jsonData[0].currencies[0].name
+
+      console.log(jsonData[0].currencies[0].symbol)
+      symbol = jsonData[0].currencies[0].symbol
+
+      console.log(jsonData[0].languages[0].name)
+      lang = jsonData[0].languages[0].name
+
+      console.log(jsonData[0].languages[0].nativeName)
+      real = jsonData[0].languages[0].nativeName
+
+      console.log(jsonData[0].population)
       pop = jsonData[0].population
+
 
       document.getElementById("info").innerHTML =
         "<ul><li>Capital: " +

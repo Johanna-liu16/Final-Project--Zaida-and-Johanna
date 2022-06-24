@@ -9,7 +9,7 @@
     <meta name="author" content="Johanna Liu" />
     <meta name="theme-color" content="#FFFFFF" />
     <link rel="manifest" href="/ICS2O-Assignment-6-JS/manifest.webmanifest" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/citation.css" />
     <!-- None blocking for Lighthouse report -->
     <!-- https://stackoverflow.com/questions/32759272/how-to-load-css-asynchronously -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></noscript>
@@ -24,12 +24,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
   <body>
-    <script src="./js/api.js"></script>
+    <script src="./js/city.js"></script>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
           <!-- Title -->
-          <span class="mdl-layout-title">Capital Searcher</span>
+          <span class="mdl-layout-title">Capital City Facts</span>
           <!-- Add spacer, to align navigation to the right -->
           <div class="mdl-layout-spacer"></div>
         </div>
@@ -43,9 +43,10 @@
         </nav>
       </div>
       <main class="mdl-layout__content">
+        <br>
         <!-- Textfield -->
         <form action="#">
-          <p>Enter a capital city: </p>
+          <h6>Enter a capital city: </h6>
           <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
             <input class="mdl-textfield__input" type="text" id="city">
             <label class="mdl-textfield__label" for="city">Enter capital city here...</label>
@@ -61,6 +62,7 @@
         <br>
         <div class="page-content"><!-- Your content goes here --></div>
         <div id="api-image"></div>
+        <div id="info"></div>
       </main>
     </div>
   </body>
