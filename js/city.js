@@ -40,7 +40,6 @@ function myButtonClicked() {
         '" alt="Country Flag" class="center" width="10%" ' +
         ">"
 
-
       console.log(jsonData[0].capital)
       capital = jsonData[0].capital
 
@@ -70,7 +69,6 @@ function myButtonClicked() {
 
       console.log(jsonData[0].population)
       pop = jsonData[0].population
-
 
       document.getElementById("info").innerHTML =
         "<ul><li>Capital: " +
