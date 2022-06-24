@@ -17,10 +17,10 @@ if (navigator.serviceWorker) {
 /**
  * Get API info.
  */
+function myButtonClicked() {
 /**
  * Get API info.
  */
-function myButtonClicked() {
   const getInfo = async (URLAddress) => {
     try {
       const result = await fetch(URLAddress)
