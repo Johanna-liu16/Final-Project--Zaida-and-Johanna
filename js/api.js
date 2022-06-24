@@ -73,7 +73,7 @@ function myButtonClicked() {
       document.getElementById("info").innerHTML =
         "Capital: " +
         capital +
-        "  Country: " + 
+        "  Country: " +
         country +
         " Native Name: " +
         nativeName +
@@ -89,7 +89,6 @@ function myButtonClicked() {
         money +
         " Currency symbol: " +
         symbol
-
     } catch (err) {
       console.log(err)
     }
