@@ -17,6 +17,9 @@ if (navigator.serviceWorker) {
 /**
  * Get API info.
  */
+/**
+ * Get API info.
+ */
 function myButtonClicked() {
   const getInfo = async (URLAddress) => {
     try {
